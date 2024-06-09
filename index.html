@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="thumbnail" data-full="images/photo1.jpg">
+        <img src="images/photo1.jpg" alt="Thumbnail 1" />
+      </div>
+      <div class="thumbnail" data-full="images/photo2.jpg">
+        <img src="images/photo2.jpg" alt="Thumbnail 2" />
+      </div>
+      <div class="thumbnail" data-full="images/photo3.jpg">
+        <img src="images/photo3.jpg" alt="Thumbnail 3" />
+      </div>
+      <div class="thumbnail" data-full="images/photo4.jpg">
+        <img src="images/photo4.jpg" alt="Thumbnail 4" />
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox">
+      <img id="full-image" src="" alt="Full Image" />
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
