@@ -13,10 +13,10 @@ An interactive photo gallery based on the provided Figma designs. The gallery is
 
 
 ## Setup
-1. **Clone the Repository:**
+1. **Clone the Repository:** git clone  https://github.com/rushimisha95/code-Africa-challenge.git
    ```sh
-git clone  https://github.com/rushimisha95/code-Africa-challenge.git
-2. Navigate to the Project Directory:
+
+2. Navigate to the Project Directory 
 cd code-Africa-challenge
 Open index.html in Your Browser
 Open the index.html file in your preferred web browser to view the interactive photo gallery.
